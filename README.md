@@ -64,7 +64,7 @@ new_Scaled = scaler.fit_transform(new_data)
 prediction = np.dot(np.append(1, new_Scaled), theta)
 prediction = prediction.reshape(-1,1)
 pre = scaler.inverse_transform(prediction)
-print(f"Predicted value: (pre)")
+print(f"Predicted value: {pre}")
 ```
 ## Output:
 ## Data Information
@@ -73,6 +73,6 @@ print(f"Predicted value: (pre)")
 ![image](https://github.com/user-attachments/assets/cf073ebe-0942-40c6-b8f1-4756a2d3895b)
 ![image](https://github.com/user-attachments/assets/c1de35b6-a5f5-4a53-901f-a8b4eb045fdb)
 ## Predicted Value
-![image](https://github.com/user-attachments/assets/4bf54feb-d06d-4fcf-a798-d90e7df4c61d)
+![image](https://github.com/user-attachments/assets/a98ad455-69a1-46a1-874b-174a3cf3c3e4)
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
